@@ -1,5 +1,19 @@
 {
-	"poland": ["poland/photo1.webp", "poland/photo2.webp", "poland/photo3.webp", "poland/photo4.webp"],
+	"poland": [
+		"poland/photo1.webp",
+		"poland/photo2.webp",
+		"poland/photo3.webp",
+		"poland/photo4.webp",
+		"poland/photo5.webp",
+		"poland/photo6.webp",
+		"poland/photo7.webp",
+		"poland/photo8.webp",
+		"poland/photo9.webp",
+		"poland/photo10.webp",
+		"poland/photo11.webp",
+		"poland/photo12.webp"
+	],
+
 	"germany": [
 		"germany/photo1.webp",
 		"germany/photo2.webp",
