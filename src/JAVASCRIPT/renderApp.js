@@ -97,7 +97,7 @@ export default function renderApp() {
 				<h2>Main Photos</h2>
 				<div class="photos-container">
 					<div class="photo">
-						<img src="public/photos/kamil1.webp" alt="" />
+						<img src="photos/kamil1.webp" alt="" />
 						<div class="overlay">
 							<div class="info-heart">
 								<span class="material-symbols-outlined"> favorite </span>
@@ -106,7 +106,7 @@ export default function renderApp() {
 						</div>
 					</div>
 					<div class="photo">
-						<img src="public/photos/kamil2.webp" alt="" />
+						<img src="photos/kamil2.webp" alt="" />
 						<div class="overlay">
 							<div class="info-heart">
 								<span class="material-symbols-outlined"> favorite </span>
@@ -115,7 +115,7 @@ export default function renderApp() {
 						</div>
 					</div>
 					<div class="photo">
-						<img src="public/photos/kamil3.webp" alt="" />
+						<img src="photos/kamil3.webp" alt="" />
 						<div class="overlay">
 							<div class="info-heart">
 								<span class="material-symbols-outlined"> favorite </span>
@@ -124,7 +124,7 @@ export default function renderApp() {
 						</div>
 					</div>
 					<div class="photo">
-						<img src="public/photos/kamil4.webp" alt="" />
+						<img src="photos/kamil4.webp" alt="" />
 						<div class="overlay">
 							<div class="info-heart">
 								<span class="material-symbols-outlined"> favorite </span>
@@ -133,7 +133,7 @@ export default function renderApp() {
 						</div>
 					</div>
 					<div class="photo">
-						<img src="public/photos/kamil5.webp" alt="" />
+						<img src="photos/kamil5.webp" alt="" />
 						<div class="overlay">
 							<div class="info-heart">
 								<span class="material-symbols-outlined"> favorite </span>
@@ -142,7 +142,7 @@ export default function renderApp() {
 						</div>
 					</div>
 					<div class="photo">
-						<img src="public/photos/kamil6.webp" alt="" />
+						<img src="photos/kamil6.webp" alt="" />
 						<div class="overlay">
 							<div class="info-heart">
 								<span class="material-symbols-outlined"> favorite </span>
