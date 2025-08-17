@@ -154,4 +154,16 @@ export default function renderApp() {
 			</article>
     `;
 	appCtn.append(app);
+
+	const photos = app.querySelectorAll('.photos-container .photo');
+	photos.forEach(photo => {
+		const img = photo.querySelector('img');
+
+		photo.classList.add('loading');
+
+		img.onload = () => {
+			photo.classList.remove('loading');
+			photo.classList.add('loaded');
+		};
+	});
 }
