@@ -109,9 +109,9 @@
 					<div class="img"></div>
 					<div class="country-span">
 						<span class="country-name">Netherland</span>
-						<img src="public/photos/flags/netherlands.png" alt="" />
-						<img src="public/photos/flags/netherlands.png" alt="" />
-						<img src="public/photos/flags/netherlands.png" alt="" />
+						<img src="photos/flags/netherlands.png" alt="" />
+						<img src="photos/flags/netherlands.png" alt="" />
+						<img src="photos/flags/netherlands.png" alt="" />
 					</div>
 				</div>
 			</article>
