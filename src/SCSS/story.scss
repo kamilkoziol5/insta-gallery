@@ -3,6 +3,7 @@
 	display: flex;
 	align-items: center;
 	gap: 2rem;
+	overflow-y: hidden;
 	overflow-x: auto;
 	scrollbar-width: thin;
 	scrollbar-color: var(--dark-hover) var(--bg-color);
@@ -28,8 +29,6 @@
 			background-repeat: no-repeat;
 			box-shadow: 0 0 0 2px var(--accent) inset;
 			transition: 300ms ease;
-
-		
 		}
 
 		.country-span {
