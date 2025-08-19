@@ -4,14 +4,15 @@ export default function renderApp() {
 	app.classList.add('container');
 	app.innerHTML = `
     <header>
-				<div class="img"></div>
+							<div class="right toggler"><span class="material-symbols-outlined"> lightbulb </span></div>
+				<div class="img">
+				<img src="photos/profile.webp"></div>
 				<div class="info-person-right-container">
 					<div class="top-bar-person-name">
 						<div class="left">
 							<h1>lysy_z</h1>
 							<button class="bg-btn">Edit Profile</button>
 						</div>
-						<div class="right toggler"><span class="material-symbols-outlined"> lightbulb </span></div>
 					</div>
 					<div class="info-row-bar-numbers">
 						<div class="posts">
@@ -152,6 +153,26 @@ export default function renderApp() {
 					</div>
 				</div>
 			</article>
+
+			<footer class="footer">
+			<h2>
+			<img src="photos/footer/code.png" alt="" />
+		PixMart</h2>
+
+			<p>Copyright 2025© Kamil Koziol</p>
+
+			<div class="socials">
+				<a href="https://dribbble.com/KamilKoziol" target="_blank">
+					<img src="photos/footer/icons8-dribbble.svg" alt="" />
+				</a>
+				<a href="https://github.com/kamilkoziol5" target="_blank">
+					<img src="photos/footer/icons8-github.svg" alt="" />
+				</a>
+				<a href="mailto:kamilkoziol529@gmail.com">
+					<img src="photos/footer/icons8-gmail-neu.svg" alt="Send mail" />
+				</a>
+			</div>
+		</footer>
     `;
 	appCtn.append(app);
 
@@ -166,4 +187,14 @@ export default function renderApp() {
 			photo.classList.add('loaded');
 		};
 	});
+
+	const profileWrapper = document.querySelector('.container header .img');
+	const profileImg = profileWrapper.querySelector('img');
+
+	profileWrapper.classList.add('loading');
+
+	profileImg.onload = () => {
+		profileWrapper.classList.remove('loading');
+		profileWrapper.classList.add('loaded');
+	};
 }

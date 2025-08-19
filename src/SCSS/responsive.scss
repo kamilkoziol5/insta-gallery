@@ -30,9 +30,14 @@
 }
 
 @media (max-width: 1100px) {
+	.container header .right span {
+		font-size: 2rem;
+	}
+
 	.story-container {
 		margin-top: 2rem;
 		gap: 1rem;
+		scrollbar-width: none;
 
 		.card {
 			gap: 1rem;
@@ -55,14 +60,26 @@
 				}
 			}
 		}
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
 	}
 
 	.photos-container {
 		grid-template-columns: 1fr 1fr;
 	}
+
+	.lightbox .thumbs-container {
+		scrollbar-width: none;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
 }
 
-@media (max-width: 765px) {
+@media (max-width: 825px) {
 	.container header {
 		flex-direction: column;
 		justify-content: center;

@@ -10,13 +10,13 @@
 		width: 100%;
 
 		.img {
-			min-width: 300px;
-			min-height: 300px;
-			background: url('/photos/profile.JPG');
-			background-size: cover;
-			background-position: center;
+			flex: 0 0 auto;
+			position: relative;
+			width: 300px;
+			height: 300px;
+			overflow: hidden;
 			border-radius: 50%;
-			box-shadow: 0 0 0 6px var(--accent) inset;
+			box-shadow: 0 0 0 5px var(--accent);
 
 			&.loading::before {
 				content: '';
@@ -35,6 +35,12 @@
 
 			&.loaded::before {
 				display: none;
+			}
+
+			img {
+				width: 300px;
+				height: 300px;
+				object-fit: cover;
 			}
 		}
 
@@ -75,15 +81,6 @@
 						}
 					}
 				}
-				.right span {
-					font-size: 3rem;
-					cursor: pointer;
-					transition: 300ms ease;
-
-					&:hover {
-						color: var(--accent);
-					}
-				}
 			}
 
 			.info-row-bar-numbers {
@@ -122,6 +119,20 @@
 					font-weight: 500;
 					border: 1px solid var(--stroke);
 				}
+			}
+		}
+
+		.right span {
+			position: absolute;
+			right: 3rem;
+			top: 3rem;
+			font-size: 3rem;
+			cursor: pointer;
+			transition: 300ms ease;
+			color: var(--text-color);
+
+			&:hover {
+				color: var(--accent);
 			}
 		}
 	}
