@@ -7,28 +7,31 @@
 	padding: 1rem 0;
 
 	h2 {
-		font-size: 2rem;
+		font-size: 2.5rem;
 		color: var(--text-color);
 		display: flex;
 		align-items: center;
 		gap: 1rem;
 
 		img {
-			width: 50px;
+			width: 60px;
 		}
 	}
 
 	p {
 		color: var(--text-color);
+		font-size: 1.2rem;
 	}
 
 	.socials {
 		display: flex;
 		align-items: center;
 		gap: 1rem;
-		background-color: #b8b8b8;
+		background-color: #3d39393f;
 		padding: 0.75rem;
-		border: 1px solid var(--text-color);
+		border: 1px solid #383838;
+		box-shadow: 0 0 5px rgba(116, 116, 116, 0.95), 0 0 15px rgba(255, 255, 255, 0.35),
+			0 0 15px rgba(136, 136, 136, 0.25);
 
 		a img {
 			width: 40px;
